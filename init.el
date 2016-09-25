@@ -288,6 +288,7 @@ you should place your code here."
                       org-depend))
   (setq org-agenda-include-diary t)
   (setq org-agenda-todo-ignore-scheduled t)
+  (setq org-agenda-dim-blocked-tasks nil)
 
   (spacemacs/toggle-golden-ratio-on)
   (global-linum-mode)
